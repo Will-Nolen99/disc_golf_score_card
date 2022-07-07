@@ -1,0 +1,64 @@
+#:kivy 2.1.0
+WindowManager:
+    MainMenu:
+    MakeGame:
+    ScoreCard:
+    PlayerName:
+    SetPar:
+    ScoreHole:
+
+
+<MainMenu>:
+    name: "main_menu"
+    id: main_menu
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+        Label:
+            text: "Main Menu"
+            font_size: 32
+
+        Button:
+            text: "New Game"
+            font_size: 32
+            on_press: app.root.current = "make_game"
+
+            
+        Button:
+            text: "Exit"
+            font_size: 32
+            on_press: app.stop()
+
+
+<MakeGame>:
+    name: "make_game"
+    id: make_game
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+
+<PlayerName>:
+    name: "name_players"
+    id: name_players
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+<ScoreCard>:
+    name: "score_card"
+    id: score_card
+
+<SetPar>:
+    name: "set_par"
+    id: set_par
+
+<ScoreHole>:
+    name: "score_hole"
+    id: score_hole
+
+
+
+
+
+
