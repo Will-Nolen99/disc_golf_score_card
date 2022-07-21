@@ -2,7 +2,7 @@
 Disc golf score card implemented using kivy and python. The goal was to create an app.
 
 # Final App
-While quite ugly the app is full functional.
+While quite ugly the app is fully functional.
 
 To build the project into an app see the instructions on kivy's website: https://kivy.org/doc/stable/guide/packaging-android.html
 
